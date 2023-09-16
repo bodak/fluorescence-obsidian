@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body {
+  /* Colors */
+  --blue: #2293F1;
+  --cyan: #44FEE4;
+  --magenta: #f90086;
+  --green: #45FE7A;
+  --yellow: #FFFA00;
+  --orange: #e87d3e;
+  --red: #F80D7A;
+  --black: #040616;
+  --white: #FFFFFF;
+  --grey: #CCCCCC;
+  --darkcyan: #8844FE;
+  --darkblack: #090731;
+  --darkgrey: #30313A;
+  --lightblue: #2C7290;
+  --darkblue: #094255;
+
+  --background-primary: var(--black);
+  --background-secondary: var(--black);
+  --background-secondary-alt: var(--black);
+  --titlebar-background: var(--black);
+  --titlebar-background-focused: var(--black);
+  --tab-container-background: var(--black);
+  --code-background: var(--darkblack);
+  --metadata-background: var(--darkblack);
+
+  --icon-color: var(--lightblue);
+
+
+  --h1-color: var(--magenta);
+  --h2-color: var(--green);
+  --h3-color: var(--blue);
+  --h4-color: var(--yellow);
+  --h5-color: var(--cyan);
+  --h6-color: var(--text-muted);
+
+  --inline-title-color: var(--cyan);
+  --table-border-color: var(--darkgrey);
+
+  --text-normal: var(--white);
+  --text-muted: var(--grey);
+  --link-color: var(--blue);
+  --link-unresolved-color: var(--blue);
+  --link-external-color: var(--blue);
+  --tag-color: var(--yellow);
+  --metadata-label-text-color: var(--yellow);
+  --metadata-properties-title: var(--cyan);
+
+  --strong-color: var(--magenta);
+  --bold-color: var(--magenta);
+  --italic-color: var(--cyan);
+  --em-color: var(--cyan);
+  --quote-color: var(--green);
+
+  --list-marker-color: var(--magenta);
+
+  --checklist-done-color: var(--green);
+  --interactive-accent: var(--cyan);
+  --interactive-accent-hover: var(--blue);
+
+  --tag-background-color-l: #bde1d3;
+  --tag-font-color-l: #1d694b;
+  --tag-background-color-d: #1d694b;
+  --tag-font-color-d: #ffffff;
+}
